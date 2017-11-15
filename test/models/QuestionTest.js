@@ -5,8 +5,8 @@ const { expect } = require('chai');
 const Question = require('../../models/Question.js');
 
 describe('Question', () => {
-  beforeEach(function(){    
-    Question._All = [
+  beforeEach(function(){
+    Question.All2 = [
       new Question("Where in the world is Carmen Sandiego?"),
       new Question("What's your favorite TV Show?"),
       new Question("What superpower would you want?")
@@ -48,6 +48,5 @@ describe('Question', () => {
     it('is an async function', function(){
       expect(Question.Print.constructor.name).to.eq('AsyncFunction', "HINT: Did you declare Print to be a static async function?\n")
     })
-  })  
+  })
 });
-

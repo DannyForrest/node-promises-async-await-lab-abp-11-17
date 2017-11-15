@@ -1,4 +1,4 @@
-const Question = require("./models/Question")
+const Question2 = require("./models/Question")
 
 console.log("Printing first question...")
-Question.Print(1)
+Question2.Print(1)
