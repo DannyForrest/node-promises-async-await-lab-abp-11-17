@@ -36,7 +36,7 @@ class Question {
         console.log(`...Question ${id} Loaded`) // Do Not Edit
 
         resolve(question)
-      }, 3000)})
+      }, 1500)})
 
   }
 
