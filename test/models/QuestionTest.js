@@ -6,7 +6,7 @@ const Question = require('../../models/Question.js');
 
 describe('Question', () => {
   beforeEach(function(){
-    Question.All2 = [
+    Question._All = [
       new Question("Where in the world is Carmen Sandiego?"),
       new Question("What's your favorite TV Show?"),
       new Question("What superpower would you want?")
