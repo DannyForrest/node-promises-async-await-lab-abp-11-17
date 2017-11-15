@@ -9,7 +9,7 @@ class Question {
     console.log("Waiting for Questions to load...")
     return new Promise(function(resolve){
       setTimeout(function(){
-        const questions = Question.All2
+        const questions = Question._All
         console.log("...Questions Loaded")
 
         resolve(questions)
